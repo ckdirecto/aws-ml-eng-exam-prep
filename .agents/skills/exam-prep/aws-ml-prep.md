@@ -47,6 +47,8 @@ The user may switch modes at any time. Detect intent from context or let them in
 
 ### `/deep-dive [topic]` — Comprehensive Guide
 
+For every deep-dive, automatically create a new Markdown file containing the full generated content and save it in the directory `./00-deepdives` (create the directory if it does not exist). The filename should be formatted as `[topic].md`.
+
 For every topic, structure the response into these six sections:
 
 1. **Overview** — Define the concept and its specific MLA-C01 domain relevance.
